@@ -31,6 +31,17 @@
             Console.WriteLine(myFloatString);
             Console.WriteLine(myBoolString);
             Console.ReadLine();
+
+            // parse string to int
+            myString = "15";
+            string myString2 = "17";
+            int num1 = Int32.Parse(myString);
+            int num2 = Int32.Parse(myString2);
+            int resultInt = num1 + num2;
+            string result = myString + myString2;
+            Console.WriteLine(result);
+            Console.WriteLine(resultInt);
+            Console.ReadLine();
         }
     }
 }
