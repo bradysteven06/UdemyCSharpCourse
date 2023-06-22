@@ -46,6 +46,24 @@
             Console.WriteLine(@"Muahaha \n you have no powers here!");
 
 
+            string s1 = "this is a \"string\" with \na slash \\ and a colon: ";
+            Console.WriteLine(s1);
+
+            string myName;
+            Console.WriteLine("Please enter your name and press enter: ");
+            myName = Console.ReadLine();
+            string myNameUpper = String.Format("Upper Case: {0}", myName.ToUpper());
+            string myNameLower = String.Format("Lower Case: {0}", myName.ToLower());
+            string myNameTrimmed = String.Format("Trimmed value: {0}", myName.Trim());
+            string myNameSubString = String.Format("Substring value: {0}", myName.Substring(0, 5));
+
+            Console.WriteLine(myName);
+            Console.WriteLine(myNameUpper);
+            Console.WriteLine(myNameLower);
+            Console.WriteLine(myNameTrimmed);
+            Console.WriteLine(myNameSubString);
+
+
         }
     }
 }
