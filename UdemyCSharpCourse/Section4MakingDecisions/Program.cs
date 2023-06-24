@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-
-            Login();
+            RegisterLogin();
+            //Login();
             //Tempurature();
         }
 
@@ -69,6 +69,47 @@
             if (userName != "")
             {
                 Console.WriteLine("You are logged in!");
+            }
+        }
+
+        static void RegisterLogin()
+        {
+            // register username
+            // register password
+            // get username
+            // get password
+            // check username
+            // check password
+            // display welcom message
+
+            string userName;
+            string password;
+            string inputName;
+            string inputPassword;
+
+            Console.WriteLine("Welcome to registration!");
+            Console.Write("Enter your desired username: ");
+            userName= Console.ReadLine();
+            Console.Write("Enter your desired password: ");
+            password= Console.ReadLine();
+
+            Console.WriteLine("Let's log in!");
+            Console.Write("Enter your username: ");
+            inputName= Console.ReadLine();
+            Console.Write("Enter your password: ");
+            inputPassword= Console.ReadLine();
+
+            if (inputName == userName && inputPassword == password)
+            {
+                Console.WriteLine("Congratulation on logging in {0}", userName);
+            }
+            else if (inputName == userName && password != inputPassword)
+            {
+                Console.WriteLine("Invalid password for user {0}", userName);
+            }
+            else
+            {
+                Console.WriteLine("That user is not in the system.");
             }
         }
 
