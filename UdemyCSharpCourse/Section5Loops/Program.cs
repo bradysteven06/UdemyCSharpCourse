@@ -5,7 +5,8 @@
         static void Main(string[] args)
         {
             //ForLoops();
-            BreakContinue();
+            //BreakContinue();
+            AverageScore();
         }
 
         static void ForLoops()
@@ -67,6 +68,41 @@
                 }
                 Console.WriteLine(counter);
             }
+        }
+
+        public static void AverageScore()
+        {
+            int scoreTotal = 0;
+            int userInput = 0;
+            int scoreCount = 0;
+            Console.WriteLine("Enter the each score then enter -1 to see the average.");
+
+            do
+            {
+                Console.Write("Enter score: ");
+                string input = Console.ReadLine();
+                if (!int.TryParse(input, out userInput))
+                {
+                    Console.WriteLine("Enter a valid number for the score.");
+                }
+                else
+                {
+                    if (userInput < 0 || userInput > 20)
+                    {
+                        if (userInput != -1)
+                        {
+                            Console.WriteLine("The score was not in the valid scoring range 0-20.");
+                        }
+                    }
+                    else
+                    {
+                        scoreTotal += userInput;
+                        scoreCount++;
+                    }
+                }
+            } while (userInput != -1);
+
+            Console.WriteLine("The average is : " + scoreTotal / scoreCount);
         }
     }
 }
