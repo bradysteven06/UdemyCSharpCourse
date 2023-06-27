@@ -9,15 +9,18 @@
         static void Main(string[] args)
         {
             Car myCar = new Car();
-            myCar.DisplayCarDetails();
+            myCar.MaxSpeed = 100;
+            Console.WriteLine(myCar.Name);
+            Console.WriteLine("My car's max speed is: " + myCar.MaxSpeed);
+            myCar.Details();
 
             Car audi = new Car("Audi A4", 250, "blue");
             audi.Drive();
             Car bmw = new Car("BMW M5", 350);
             bmw.Drive();
 
-            audi.DisplayCarDetails();
-            bmw.DisplayCarDetails();
+            audi.Details();
+            bmw.Details();
 
             Console.WriteLine("Press 1 to stop the car!");
             string userInput = Console.ReadLine();

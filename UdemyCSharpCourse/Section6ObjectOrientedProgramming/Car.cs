@@ -9,9 +9,13 @@ namespace Section6ObjectOrientedProgramming
     internal class Car
     {
         // Member variables
+        // access modifier private
         private string _name; // private field typically used for storing data.
         private int _hp;
         private string _color;
+
+        public int MaxSpeed { get; set; }
+
 
         public Car()
         {
@@ -38,6 +42,14 @@ namespace Section6ObjectOrientedProgramming
             _color = color;
         }
 
+        // public property
+        public string Name 
+        { 
+            get { return _name; } 
+            set { _name = value; }
+        }
+
+
         // Member methods
         public void Drive()
         {
@@ -49,7 +61,7 @@ namespace Section6ObjectOrientedProgramming
             Console.WriteLine(_name + " stopped!");
         }
 
-        public void DisplayCarDetails()
+        public void Details()
         {
             Console.WriteLine("The " + _color + " car " + _name + " has " + _hp + " hp.");
         }
