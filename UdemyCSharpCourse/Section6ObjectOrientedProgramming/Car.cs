@@ -13,12 +13,29 @@ namespace Section6ObjectOrientedProgramming
         private int _hp;
         private string _color;
 
-        // Constructor
-        public Car(string name, int hp = 0, string color = "black") 
+        public Car()
+        {
+            _name = "Car";
+            _hp = 0;
+            _color = "red";
+        }
+
+        // Partial Specification Constructor
+        public Car(string name, int hp = 0) 
         {
             _name = name;
             _hp = hp;
             Console.WriteLine(name + " was created!");
+            _color = "red";
+        }
+
+        // Full Specification Constructor
+        public Car(string name, int hp, string color)
+        {
+            _name = name;
+            _hp = hp;
+            Console.WriteLine(name + " was created!");
+            _color = color;
         }
 
         // Member methods

@@ -8,6 +8,9 @@
     {
         static void Main(string[] args)
         {
+            Car myCar = new Car();
+            myCar.DisplayCarDetails();
+
             Car audi = new Car("Audi A4", 250, "blue");
             audi.Drive();
             Car bmw = new Car("BMW M5", 350);
@@ -26,6 +29,7 @@
             {
                 Console.WriteLine("Car keeps driving");
             }
+
         }
     }
 }
