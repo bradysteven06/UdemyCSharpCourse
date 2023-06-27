@@ -8,9 +8,13 @@
     {
         static void Main(string[] args)
         {
-            Car audi = new Car();
+            Car audi = new Car("Audi A4", 250, "blue");
             audi.Drive();
-            Car bmw = new Car();
+            Car bmw = new Car("BMW M5", 350);
+            bmw.Drive();
+
+            audi.DisplayCarDetails();
+            bmw.DisplayCarDetails();
 
             Console.WriteLine("Press 1 to stop the car!");
             string userInput = Console.ReadLine();
