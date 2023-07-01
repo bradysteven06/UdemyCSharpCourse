@@ -1,0 +1,15 @@
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\Section7Collections\bin\Debug\net6.0\Section7Collections.exe
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\Section7Collections\bin\Debug\net6.0\Section7Collections.deps.json
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\Section7Collections\bin\Debug\net6.0\Section7Collections.runtimeconfig.json
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\Section7Collections\bin\Debug\net6.0\Section7Collections.dll
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\Section7Collections\bin\Debug\net6.0\Section7Collections.pdb
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\Section7Collections\obj\Debug\net6.0\Section7Collections.csproj.AssemblyReference.cache
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\Section7Collections\obj\Debug\net6.0\Section7Collections.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\Section7Collections\obj\Debug\net6.0\Section7Collections.AssemblyInfoInputs.cache
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\Section7Collections\obj\Debug\net6.0\Section7Collections.AssemblyInfo.cs
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\Section7Collections\obj\Debug\net6.0\Section7Collections.csproj.CoreCompileInputs.cache
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\Section7Collections\obj\Debug\net6.0\Section7Collections.dll
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\Section7Collections\obj\Debug\net6.0\refint\Section7Collections.dll
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\Section7Collections\obj\Debug\net6.0\Section7Collections.pdb
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\Section7Collections\obj\Debug\net6.0\Section7Collections.genruntimeconfig.cache
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\Section7Collections\obj\Debug\net6.0\ref\Section7Collections.dll
