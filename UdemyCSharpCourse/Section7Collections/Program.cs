@@ -31,8 +31,8 @@ namespace Section7Collections
             //Console.WriteLine("Length of gradesOfMathStudentsA: {0}", gradesOfMathStudentsA.Length);
             //Console.ReadLine();
 
-
-            int[] nums = new int[10];
+            // Arrays
+            /*int[] nums = new int[10];
 
             for(int i = 0; i < 10; i++)
             {
@@ -56,7 +56,55 @@ namespace Section7Collections
             foreach(string name in friends)
             {
                 Console.WriteLine("Hello {0}, how are you today?", name);
-            }
+            }*/
+
+            // Multi Dimensional Arrays
+
+            // 2D Array
+            string[,] matrix;
+
+            // 3D Array
+            int[,,] threeD;
+
+            // two dimensional array
+            int[,] array2D = new int[,]
+            {
+                {1, 2, 3 },  // row0
+                {4, 5, 6 },  // row1
+                {7, 8, 9 }   // row2
+            };
+
+            Console.WriteLine("Central value is {0}", array2D[1,1]);
+
+            string[,,] array3D = new string[,,]
+            {
+                {
+                    {"000", "001"},
+                    {"010", "011"},
+                    {"Hi there", "What's up"}
+                },
+                {
+                    {"100", "101"},
+                    {"110", "111"},
+                    {"Another one", "Last entry"}
+                }
+            };
+
+            Console.WriteLine("The value is {0}", array3D[1, 2, 1]);
+
+            string[,] array2DString = new string[,]
+            {
+                {"one", "two" },
+                {"three", "four" },
+                {"five", "six" }
+            };
+
+            array2DString[1, 1] = "chicken";
+
+            int dimensions = array2DString.Rank;
+            Console.WriteLine(dimensions);
+
+            int[,] array2D2 = { { 1, 2 }, { 3, 4 } };
 
         }
     }
