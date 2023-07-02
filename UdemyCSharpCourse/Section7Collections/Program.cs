@@ -61,7 +61,12 @@ namespace Section7Collections
             // Multi Dimensional Arrays
 
             // 2D Array
-            string[,] matrix;
+            int[,] matrix =
+            {
+                {1, 2, 3 },
+                {4, 5, 6 },
+                {7, 8, 9}
+            };
 
             // 3D Array
             int[,,] threeD;
@@ -105,6 +110,27 @@ namespace Section7Collections
             Console.WriteLine(dimensions);
 
             int[,] array2D2 = { { 1, 2 }, { 3, 4 } };
+
+            foreach (int item in matrix)
+            {
+                Console.Write(item);
+            }
+            Console.WriteLine();
+
+            Console.WriteLine("This is our 2D array printed using nested for loops");
+            //outer loop
+            for(int i = 0; i < matrix.GetLength(1); i++)
+            {
+                for(int j = 0; j < matrix.GetLength(1); j++)
+                {
+                    if (matrix[i, j] % 2 == 0)
+                    {
+                        Console.Write(matrix[i, j] + " ");
+                    }
+                    
+                }
+            }
+            Console.WriteLine();
 
         }
     }
