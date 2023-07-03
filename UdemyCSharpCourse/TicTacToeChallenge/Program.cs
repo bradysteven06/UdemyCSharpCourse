@@ -5,6 +5,23 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+
+            // Display welcome message
+            // Display rules
+            // Create board
+            // Start game loop
+            //  Start player 1 turn
+            //      Get move
+            //      Set move on board
+            //  Check for win
+            //      If win, display game over message with winner
+            //  Start player 2 turn
+            //      Get move
+            //      Set move on board
+            //  Check for win
+            //      If win, display game over message with winner
+
+
         }
 
         public static bool Checker(string[,] board)
