@@ -23,15 +23,20 @@
             //          If win, display game over message with winner
             //  End game loop
             // End new game loop
+            const string PLAYER1 = "X";
+            const string PLAYER2 = "O";
             bool playAgain = true;
             int player1Score = 0;
             int player2Score = 0;
+            string currentPlayer = "";
             string[,] board = new string[3,3];
 
             Console.WriteLine("Let's play tic tac toe!");
             do
             {
+                bool winner = false;
                 bool gameOver = false;
+                currentPlayer = PLAYER1;
 
                 DisplayRules();
                 board = CreateBoard(board);
@@ -39,8 +44,28 @@
                 Console.ReadLine();
                 do
                 {
+                    board = MakeMove(board, currentPlayer);
+                    winner = CheckWin(board);
 
+                    if (winner)
+                    {
+                        Console.WriteLine("{0} wins!", currentPlayer);
+                        if (currentPlayer == PLAYER1)
+                        {
+                            player1Score += 1;
+                        }
+                        else
+                        {
+                            player2Score += 1;
+                        }
+                        gameOver = true;
+                    }
+                    else
+                    {
+                        currentPlayer = PLAYER2;
+                    }
                 } while (!gameOver);
+                playAgain = PlayAgain();
             } while (playAgain);
         }
 
@@ -76,13 +101,144 @@
             Console.WriteLine("   |   |   ");
         }
 
-        public string MakeMove()
+        public static string[,] MakeMove(string[,] board, string player)
+        {
+            string playerMove = "";
+            bool validMove = false;
+            do
+            {
+                playerMove = GetMove();
+                switch (playerMove)
+                {
+                    case "1":
+                        if (board[0,0] == "1")
+                        {
+                            board[0,0] = "player";
+                            validMove = true;
+                        }
+                        else
+                        {
+                            Console.WriteLine("That square is already taken. Pick another.");
+                        }
+                        break;
+                    case "2":
+                        if (board[0, 0] == "1")
+                        {
+                            board[0, 0] = "player";
+                            validMove = true;
+                        }
+                        else
+                        {
+                            Console.WriteLine("That square is already taken. Pick another.");
+                        }
+                        break;
+                    case "3":
+                        if (board[0, 0] == "1")
+                        {
+                            board[0, 0] = "player";
+                            validMove = true;
+                        }
+                        else
+                        {
+                            Console.WriteLine("That square is already taken. Pick another.");
+                        }
+                        break;
+                    case "4":
+                        if (board[0, 0] == "1")
+                        {
+                            board[0, 0] = "player";
+                            validMove = true;
+                        }
+                        else
+                        {
+                            Console.WriteLine("That square is already taken. Pick another.");
+                        }
+                        break;
+                    case "5":
+                        if (board[0, 0] == "1")
+                        {
+                            board[0, 0] = "player";
+                            validMove = true;
+                        }
+                        else
+                        {
+                            Console.WriteLine("That square is already taken. Pick another.");
+                        }
+                        break;
+                    case "6":
+                        if (board[0, 0] == "1")
+                        {
+                            board[0, 0] = "player";
+                            validMove = true;
+                        }
+                        else
+                        {
+                            Console.WriteLine("That square is already taken. Pick another.");
+                        }
+                        break;
+                    case "7":
+                        if (board[0, 0] == "1")
+                        {
+                            board[0, 0] = "player";
+                            validMove = true;
+                        }
+                        else
+                        {
+                            Console.WriteLine("That square is already taken. Pick another.");
+                        }
+                        break;
+                    case "8":
+                        if (board[0, 0] == "1")
+                        {
+                            board[0, 0] = "player";
+                            validMove = true;
+                        }
+                        else
+                        {
+                            Console.WriteLine("That square is already taken. Pick another.");
+                        }
+                        break;
+                    case "9":
+                        if (board[0, 0] == "1")
+                        {
+                            board[0, 0] = "player";
+                            validMove = true;
+                        }
+                        else
+                        {
+                            Console.WriteLine("That square is already taken. Pick another.");
+                        }
+                        break;
+                }
+            } while (validMove);
+
+
+            return board;
+        }
+
+        public static string GetMove()
         {
             string move = "";
+            bool validInput = false;
+
+            do
+            {
+                Console.WriteLine("Pick an available square on the board(1-9): ");
+                string input = Console.ReadLine();
+                if (input == "1" || input == "2" || input == "3" || input == "4" || input == "5" || input == "6" || input == "7" || input == "8" || input == "9")
+                {
+                    move = input;
+                    validInput = true;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid choice. Choice needs to be a number from 1 to 9. Try again.");
+                }
+            } while (!validInput);
+
 
             return move;
         }
-
 
         public static bool CheckWin(string[,] board)
         {
@@ -126,6 +282,34 @@
                 winner = true;
             }
             return winner;
+        }
+        
+        public static bool PlayAgain()
+        {
+            bool again = false;
+            bool validInput = false;
+            do
+            {
+                Console.WriteLine("Would you like to play again?(y/n): ");
+                string input = Console.ReadLine();
+                if (input.ToLower() == "y")
+                {
+                    Console.WriteLine("Let's play another round.");
+                    again = true;
+                    validInput = true;
+                }
+                else if (input.ToLower() == "n")
+                {
+                    Console.WriteLine("See you next time.");
+                    validInput = true;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input. input should either by y or n. Try again.");
+                }
+            } while (!validInput);
+
+            return again;
         }
     }
 }
