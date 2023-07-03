@@ -67,6 +67,7 @@
                 } while (!gameOver);
                 playAgain = PlayAgain();
             } while (playAgain);
+            Console.WriteLine("Player 1 had {0} wins and Player 2 had {1} wins.", player1Score, player2Score);
         }
 
         public static string[,] CreateBoard(string[,] board)
