@@ -37,15 +37,18 @@
                 bool winner = false;
                 bool gameOver = false;
                 currentPlayer = PLAYER1;
+                int moveCount = 0;
 
                 DisplayRules();
                 board = CreateBoard(board);
                 DisplayBoard(board);
-                Console.ReadLine();
+
                 do
                 {
                     board = MakeMove(board, currentPlayer);
+                    moveCount += 1;
                     winner = CheckWin(board);
+                    DisplayBoard(board);
 
                     if (winner)
                     {
@@ -62,12 +65,27 @@
                     }
                     else
                     {
-                        currentPlayer = PLAYER2;
+                        if (moveCount == 9)
+                        {
+                            Console.WriteLine("It's a tie.");
+                            gameOver = true;
+                        }
+                        else
+                        {
+                            if (currentPlayer == PLAYER1)
+                            {
+                                currentPlayer = PLAYER2;
+                            }
+                            else
+                            {
+                                currentPlayer = PLAYER1;
+                            }
+                        }
                     }
                 } while (!gameOver);
                 playAgain = PlayAgain();
             } while (playAgain);
-            Console.WriteLine("Player 1 had {0} wins and Player 2 had {1} wins.", player1Score, player2Score);
+            GameEndMessage(player1Score, player2Score);
         }
 
         public static string[,] CreateBoard(string[,] board)
@@ -106,6 +124,12 @@
         {
             string playerMove = "";
             bool validMove = false;
+            if (player == "X")
+                Console.WriteLine("Player 1's turn.");
+            else
+            {
+                Console.WriteLine("Player 2's turn.");
+            }
             do
             {
                 playerMove = GetMove();
@@ -114,7 +138,7 @@
                     case "1":
                         if (board[0,0] == "1")
                         {
-                            board[0,0] = "player";
+                            board[0,0] = player;
                             validMove = true;
                         }
                         else
@@ -123,9 +147,9 @@
                         }
                         break;
                     case "2":
-                        if (board[0, 0] == "1")
+                        if (board[0, 1] == "2")
                         {
-                            board[0, 0] = "player";
+                            board[0, 1] = player;
                             validMove = true;
                         }
                         else
@@ -134,9 +158,9 @@
                         }
                         break;
                     case "3":
-                        if (board[0, 0] == "1")
+                        if (board[0, 2] == "3")
                         {
-                            board[0, 0] = "player";
+                            board[0, 2] = player;
                             validMove = true;
                         }
                         else
@@ -145,9 +169,9 @@
                         }
                         break;
                     case "4":
-                        if (board[0, 0] == "1")
+                        if (board[1, 0] == "4")
                         {
-                            board[0, 0] = "player";
+                            board[1, 0] = player;
                             validMove = true;
                         }
                         else
@@ -156,9 +180,9 @@
                         }
                         break;
                     case "5":
-                        if (board[0, 0] == "1")
+                        if (board[1, 1] == "5")
                         {
-                            board[0, 0] = "player";
+                            board[1, 1] = player;
                             validMove = true;
                         }
                         else
@@ -167,9 +191,9 @@
                         }
                         break;
                     case "6":
-                        if (board[0, 0] == "1")
+                        if (board[1, 2] == "6")
                         {
-                            board[0, 0] = "player";
+                            board[1, 2] = player;
                             validMove = true;
                         }
                         else
@@ -178,9 +202,9 @@
                         }
                         break;
                     case "7":
-                        if (board[0, 0] == "1")
+                        if (board[2, 0] == "7")
                         {
-                            board[0, 0] = "player";
+                            board[2, 0] = player;
                             validMove = true;
                         }
                         else
@@ -189,9 +213,9 @@
                         }
                         break;
                     case "8":
-                        if (board[0, 0] == "1")
+                        if (board[2, 1] == "8")
                         {
-                            board[0, 0] = "player";
+                            board[2, 1] = player;
                             validMove = true;
                         }
                         else
@@ -200,9 +224,9 @@
                         }
                         break;
                     case "9":
-                        if (board[0, 0] == "1")
+                        if (board[2, 2] == "9")
                         {
-                            board[0, 0] = "player";
+                            board[2, 2] = player;
                             validMove = true;
                         }
                         else
@@ -211,7 +235,7 @@
                         }
                         break;
                 }
-            } while (validMove);
+            } while (!validMove);
 
 
             return board;
@@ -311,6 +335,22 @@
             } while (!validInput);
 
             return again;
+        }
+
+        public static void GameEndMessage(int player1Score, int player2Score)
+        {
+            if (player1Score > 1 && player2Score == 1)
+            {
+                Console.WriteLine("Player 1 had {0} wins and Player 2 had {1} win.", player1Score, player2Score);
+            }
+            else if (player1Score == 1 && player2Score > 1)
+            {
+                Console.WriteLine("Player 1 had {0} win and Player 2 had {1} wins.", player1Score, player2Score);
+            }
+            else
+            {
+                Console.WriteLine("Player 1 had {0} wins and Player 2 had {1} wins.", player1Score, player2Score);
+            }
         }
     }
 }
