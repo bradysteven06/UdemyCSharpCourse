@@ -45,6 +45,27 @@
                 }
             }
 
+            string[] hsdFamily = new string[] { "Miu", "Freya" };
+
+            string[][] friendsArray = new string[][]
+            {
+                new string[] {"Nami", "Robin"},
+                new string[] {"Stuart", "Kevin"},
+                new string[] {"Hinata", "Hanabi"},
+                hsdFamily
+            };
+
+            foreach (string[] array in friendsArray)
+            {
+                foreach(string name in array)
+                {
+                    Console.WriteLine(name);
+                }
+            }
+
+            Console.WriteLine("{0} this is {1}, {1} this is {0}. Ladies, this is {2}", friendsArray[0][0], friendsArray[2][0], friendsArray[1][1]);
+            Console.WriteLine("{0} this is {1}, {1} this is {0}. Ladies, this is {2}", friendsArray[0][1], friendsArray[2][1], friendsArray[1][1]);
+
             Console.ReadLine();
         }
     }
