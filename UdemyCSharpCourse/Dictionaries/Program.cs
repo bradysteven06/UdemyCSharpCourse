@@ -24,6 +24,29 @@ namespace Dictionaries
                 employeesDirectory.Add(emp.Role, emp);
             }
 
+            // update dictionary entry
+            string KeyToUpdate = "HR";
+            if (employeesDirectory.ContainsKey(KeyToUpdate))
+            {
+                employeesDirectory[KeyToUpdate] = new Employee("HR", "Eleka", 26, 18);
+                Console.WriteLine("Employee with Role/Key {0} was updated!.", KeyToUpdate);
+            }
+            else
+            {
+                Console.WriteLine("No employee found with this key {0}", KeyToUpdate);
+            }
+
+            // remove
+            string keyToRemove = "Intern";
+            if (employeesDirectory.Remove(keyToRemove))
+            {
+                Console.WriteLine("Employee with Role/Key {0} was Removed!.", keyToRemove);
+            }
+            else
+            {
+                Console.WriteLine("No employee found with this key {0}", keyToRemove);
+            }
+
             for (int i = 0; i < employeesDirectory.Count; i++)
             {
                 // using ElementAt(i) to return the key-value pair stored at index i
@@ -65,8 +88,27 @@ namespace Dictionaries
             {
                 Console.WriteLine("The key does not exist.");
             }
-            
 
+            Console.WriteLine(Convert(5));
+        }
+
+        public static string Convert(int i)
+        {
+            // TODO
+            Dictionary<int, string> myDictionary = new Dictionary<int, string>()
+            {
+                {0, "zero"},
+                {1, "one"},
+                {2, "two"},
+                {3, "three"},
+                {4, "four"},
+                {5, "five"}
+            };
+
+            if (myDictionary.ContainsKey(i))
+                return myDictionary[i];
+            else
+                return "nope";
         }
     }
 
