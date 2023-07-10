@@ -18,7 +18,7 @@ namespace InheritanceC
         protected bool IsPublic { get; set; }
 
         // Default constructor. If a derived class does not invoke a base class
-        // constructor explicitly, the default constructor is call implicitly
+        // constructor explicitly, the default constructor is called implicitly
         public Post()
         {
             ID = 0;
