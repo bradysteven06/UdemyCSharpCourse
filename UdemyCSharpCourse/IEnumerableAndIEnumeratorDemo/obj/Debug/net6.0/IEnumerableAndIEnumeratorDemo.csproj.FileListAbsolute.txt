@@ -1,0 +1,15 @@
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\IEnumerableAndIEnumeratorDemo\bin\Debug\net6.0\IEnumerableAndIEnumeratorDemo.exe
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\IEnumerableAndIEnumeratorDemo\bin\Debug\net6.0\IEnumerableAndIEnumeratorDemo.deps.json
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\IEnumerableAndIEnumeratorDemo\bin\Debug\net6.0\IEnumerableAndIEnumeratorDemo.runtimeconfig.json
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\IEnumerableAndIEnumeratorDemo\bin\Debug\net6.0\IEnumerableAndIEnumeratorDemo.dll
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\IEnumerableAndIEnumeratorDemo\bin\Debug\net6.0\IEnumerableAndIEnumeratorDemo.pdb
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\IEnumerableAndIEnumeratorDemo\obj\Debug\net6.0\IEnumerableAndIEnumeratorDemo.csproj.AssemblyReference.cache
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\IEnumerableAndIEnumeratorDemo\obj\Debug\net6.0\IEnumerableAndIEnumeratorDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\IEnumerableAndIEnumeratorDemo\obj\Debug\net6.0\IEnumerableAndIEnumeratorDemo.AssemblyInfoInputs.cache
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\IEnumerableAndIEnumeratorDemo\obj\Debug\net6.0\IEnumerableAndIEnumeratorDemo.AssemblyInfo.cs
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\IEnumerableAndIEnumeratorDemo\obj\Debug\net6.0\IEnumerableAndIEnumeratorDemo.csproj.CoreCompileInputs.cache
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\IEnumerableAndIEnumeratorDemo\obj\Debug\net6.0\IEnumerableAndIEnumeratorDemo.dll
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\IEnumerableAndIEnumeratorDemo\obj\Debug\net6.0\refint\IEnumerableAndIEnumeratorDemo.dll
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\IEnumerableAndIEnumeratorDemo\obj\Debug\net6.0\IEnumerableAndIEnumeratorDemo.pdb
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\IEnumerableAndIEnumeratorDemo\obj\Debug\net6.0\IEnumerableAndIEnumeratorDemo.genruntimeconfig.cache
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\IEnumerableAndIEnumeratorDemo\obj\Debug\net6.0\ref\IEnumerableAndIEnumeratorDemo.dll
