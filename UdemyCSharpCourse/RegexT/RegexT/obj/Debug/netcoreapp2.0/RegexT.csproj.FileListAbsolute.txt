@@ -1,0 +1,24 @@
+C:\Users\Denis Panjuta\source\repos\RegexT\RegexT\bin\Debug\netcoreapp2.0\RegexT.deps.json
+C:\Users\Denis Panjuta\source\repos\RegexT\RegexT\bin\Debug\netcoreapp2.0\RegexT.runtimeconfig.json
+C:\Users\Denis Panjuta\source\repos\RegexT\RegexT\bin\Debug\netcoreapp2.0\RegexT.runtimeconfig.dev.json
+C:\Users\Denis Panjuta\source\repos\RegexT\RegexT\bin\Debug\netcoreapp2.0\RegexT.dll
+C:\Users\Denis Panjuta\source\repos\RegexT\RegexT\bin\Debug\netcoreapp2.0\RegexT.pdb
+C:\Users\Denis Panjuta\source\repos\RegexT\RegexT\obj\Debug\netcoreapp2.0\RegexT.csprojResolveAssemblyReference.cache
+C:\Users\Denis Panjuta\source\repos\RegexT\RegexT\obj\Debug\netcoreapp2.0\RegexT.csproj.CoreCompileInputs.cache
+C:\Users\Denis Panjuta\source\repos\RegexT\RegexT\obj\Debug\netcoreapp2.0\RegexT.AssemblyInfoInputs.cache
+C:\Users\Denis Panjuta\source\repos\RegexT\RegexT\obj\Debug\netcoreapp2.0\RegexT.AssemblyInfo.cs
+C:\Users\Denis Panjuta\source\repos\RegexT\RegexT\obj\Debug\netcoreapp2.0\RegexT.dll
+C:\Users\Denis Panjuta\source\repos\RegexT\RegexT\obj\Debug\netcoreapp2.0\RegexT.pdb
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\RegexT\RegexT\bin\Debug\netcoreapp2.0\RegexT.deps.json
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\RegexT\RegexT\bin\Debug\netcoreapp2.0\RegexT.runtimeconfig.json
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\RegexT\RegexT\bin\Debug\netcoreapp2.0\RegexT.runtimeconfig.dev.json
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\RegexT\RegexT\bin\Debug\netcoreapp2.0\RegexT.dll
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\RegexT\RegexT\bin\Debug\netcoreapp2.0\RegexT.pdb
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\RegexT\RegexT\obj\Debug\netcoreapp2.0\RegexT.csproj.AssemblyReference.cache
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\RegexT\RegexT\obj\Debug\netcoreapp2.0\RegexT.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\RegexT\RegexT\obj\Debug\netcoreapp2.0\RegexT.AssemblyInfoInputs.cache
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\RegexT\RegexT\obj\Debug\netcoreapp2.0\RegexT.AssemblyInfo.cs
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\RegexT\RegexT\obj\Debug\netcoreapp2.0\RegexT.csproj.CoreCompileInputs.cache
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\RegexT\RegexT\obj\Debug\netcoreapp2.0\RegexT.dll
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\RegexT\RegexT\obj\Debug\netcoreapp2.0\RegexT.pdb
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\RegexT\RegexT\obj\Debug\netcoreapp2.0\RegexT.genruntimeconfig.cache
