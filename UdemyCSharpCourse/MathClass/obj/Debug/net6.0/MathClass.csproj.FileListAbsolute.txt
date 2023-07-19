@@ -1,0 +1,15 @@
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MathClass\bin\Debug\net6.0\MathClass.exe
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MathClass\bin\Debug\net6.0\MathClass.deps.json
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MathClass\bin\Debug\net6.0\MathClass.runtimeconfig.json
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MathClass\bin\Debug\net6.0\MathClass.dll
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MathClass\bin\Debug\net6.0\MathClass.pdb
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MathClass\obj\Debug\net6.0\MathClass.csproj.AssemblyReference.cache
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MathClass\obj\Debug\net6.0\MathClass.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MathClass\obj\Debug\net6.0\MathClass.AssemblyInfoInputs.cache
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MathClass\obj\Debug\net6.0\MathClass.AssemblyInfo.cs
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MathClass\obj\Debug\net6.0\MathClass.csproj.CoreCompileInputs.cache
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MathClass\obj\Debug\net6.0\MathClass.dll
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MathClass\obj\Debug\net6.0\refint\MathClass.dll
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MathClass\obj\Debug\net6.0\MathClass.pdb
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MathClass\obj\Debug\net6.0\MathClass.genruntimeconfig.cache
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MathClass\obj\Debug\net6.0\ref\MathClass.dll
