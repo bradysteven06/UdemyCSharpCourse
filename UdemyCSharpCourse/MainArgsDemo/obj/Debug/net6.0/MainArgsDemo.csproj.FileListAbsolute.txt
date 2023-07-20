@@ -1,0 +1,17 @@
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MainArgsDemo\bin\Debug\net6.0\MainArgsDemo.exe
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MainArgsDemo\bin\Debug\net6.0\MainArgsDemo.deps.json
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MainArgsDemo\bin\Debug\net6.0\MainArgsDemo.runtimeconfig.json
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MainArgsDemo\bin\Debug\net6.0\MainArgsDemo.dll
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MainArgsDemo\bin\Debug\net6.0\MainArgsDemo.pdb
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MainArgsDemo\obj\Debug\net6.0\MainArgsDemo.csproj.AssemblyReference.cache
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MainArgsDemo\obj\Debug\net6.0\MainArgsDemo.Properties.Resources.resources
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MainArgsDemo\obj\Debug\net6.0\MainArgsDemo.csproj.GenerateResource.cache
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MainArgsDemo\obj\Debug\net6.0\MainArgsDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MainArgsDemo\obj\Debug\net6.0\MainArgsDemo.AssemblyInfoInputs.cache
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MainArgsDemo\obj\Debug\net6.0\MainArgsDemo.AssemblyInfo.cs
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MainArgsDemo\obj\Debug\net6.0\MainArgsDemo.csproj.CoreCompileInputs.cache
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MainArgsDemo\obj\Debug\net6.0\MainArgsDemo.dll
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MainArgsDemo\obj\Debug\net6.0\refint\MainArgsDemo.dll
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MainArgsDemo\obj\Debug\net6.0\MainArgsDemo.pdb
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MainArgsDemo\obj\Debug\net6.0\MainArgsDemo.genruntimeconfig.cache
+D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\MainArgsDemo\obj\Debug\net6.0\ref\MainArgsDemo.dll
