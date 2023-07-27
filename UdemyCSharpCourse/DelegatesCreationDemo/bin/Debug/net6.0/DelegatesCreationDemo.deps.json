@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DelegatesCreationDemo/1.0.0": {
+        "runtime": {
+          "DelegatesCreationDemo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DelegatesCreationDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
