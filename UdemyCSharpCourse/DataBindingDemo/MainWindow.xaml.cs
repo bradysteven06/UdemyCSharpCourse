@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataBindingDemo.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,12 @@ namespace DataBindingDemo
     /// </summary>
     public partial class MainWindow : Window
     {
+        Person person = new Person
+        {
+            Name = "Kevin",
+            Age = 30
+        };
+
         public MainWindow()
         {
             InitializeComponent();
