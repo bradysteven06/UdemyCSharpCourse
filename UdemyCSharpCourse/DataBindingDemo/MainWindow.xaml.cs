@@ -30,11 +30,14 @@ namespace DataBindingDemo
         public MainWindow()
         {
             InitializeComponent();
+
+            this.DataContext = person;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Hello World");
+            string personData = person.Name + " is " + person.Age + " years old.";
+            MessageBox.Show(personData);
         }
     }
 }
