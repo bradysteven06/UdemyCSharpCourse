@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WPFListBoxDemo.Data;
 
 namespace WPFListBoxDemo
 {
@@ -20,17 +21,30 @@ namespace WPFListBoxDemo
     /// </summary>
     public partial class MainWindow : Window
     {
+        public List<Person> People = new List<Person>()
+        {
+            new Person{Name = "Stuart", Age = 41},
+            new Person{Name = "Gru", Age = 34},
+            new Person{Name = "Lucy", Age = 26},
+            new Person{Name = "Bob", Age = 42},
+            new Person{Name = "Kevin", Age = 39}
+        };
+
         public MainWindow()
         {
             InitializeComponent();
 
-            ListBoxNames.ItemsSource = new List<string>()
+            ListBoxPeople.ItemsSource = People;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var selectedItems = ListBoxPeople.SelectedItems;
+            foreach (var item in selectedItems)
             {
-                "Bob",
-                "Kevin",
-                "Lucy",
-                "Stuart"
-            };
+                var person = (Person)item;
+                MessageBox.Show(person.Name);
+            }
         }
     }
 }

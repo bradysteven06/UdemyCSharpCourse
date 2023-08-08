@@ -11,6 +11,8 @@
             <RowDefinition Height="10"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="10"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="10"/>
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
@@ -19,6 +21,17 @@
             <ColumnDefinition Width="10"/>
         </Grid.ColumnDefinitions>
 
-        <ListBox x:Name="ListBoxNames" Grid.Column="1" Grid.Row="1"/>
+        <ListBox x:Name="ListBoxPeople" SelectionMode="Multiple" Grid.Column="1" Grid.Row="1">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Name, StringFormat='Name: {0}'}"/>
+                        <TextBlock Text="{Binding Age, StringFormat='Age: {0}'}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <Button Content="Show selected" Grid.Row="3" Grid.Column="1" Click="Button_Click" />
     </Grid>
 </Window>
