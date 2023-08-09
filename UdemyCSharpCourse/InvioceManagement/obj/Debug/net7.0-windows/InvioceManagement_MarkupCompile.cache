@@ -1,5 +1,5 @@
 ﻿InvioceManagement
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 D:\Courses\UdemyC#Course\UdemyCSharpCourse\UdemyCSharpCourse\InvioceManagement\App.xaml
 21435113353
 
-6951377940
+4336052956
 198-2048575587
 LoginView.xaml;MainWindow.xaml;
 
-True
+False
 
